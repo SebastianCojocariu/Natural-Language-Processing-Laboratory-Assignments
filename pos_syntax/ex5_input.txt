@@ -1,0 +1,5 @@
+Colab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more. 
+When you create your own Colab notebooks, they are stored in your Google Drive account. 
+You can easily share your Colab notebooks with co-workers or friends, allowing them to comment on your notebooks or even edit them.
+To find out more, see Overview of Colab.
+To create a new Colab notebook you can use the File menu above, or use the following link: Create a new Colab notebook.

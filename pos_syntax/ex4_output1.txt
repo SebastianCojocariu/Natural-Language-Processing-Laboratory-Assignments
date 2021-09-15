@@ -1,0 +1,27 @@
+I/PRP have/VBP always/RB liked/VBN red/JJ apples/NNS and/CC tasty/JJ oranges/NNS ./.
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB always))
+      (VP (VBN liked)
+        (NP
+          (UCP
+            (NP (JJ red) (NNS apples))
+            (CC and)
+            (ADJP (JJ tasty)))
+          (NNS oranges))))
+    (. .)))
+
+nsubj(liked-4, I-1)
+aux(liked-4, have-2)
+advmod(liked-4, always-3)
+root(ROOT-0, liked-4)
+amod(apples-6, red-5)
+compound(oranges-9, apples-6)
+cc(tasty-8, and-7)
+conj:and(apples-6, tasty-8)
+compound(oranges-9, tasty-8)
+obj(liked-4, oranges-9)
+
